@@ -15,6 +15,10 @@ const Rewards = () => {
     { name: "15% Off", logosrc: "/images/plantshop.png" },
     { name: "15% Off", logosrc: "/images/firstbus.png" },
     { name: "15% Off", logosrc: "/images/plantshop.png" },
+    { name: "5% Off", logosrc: "/images/train.png" },
+    { name: "5% Off", logosrc: "/images/plantshop.png" },
+    { name: "5% Off", logosrc: "/images/firstbus.png" },
+    { name: "5% Off", logosrc: "/images/plantshop.png" },
   ];
   return (
     <CardWrapper className="ad-clr rewards adjustment">
