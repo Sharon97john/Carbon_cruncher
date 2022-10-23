@@ -29,9 +29,8 @@ const Dashboard = () => {
   ];
   return (
     <Container>
-      <Navbar></Navbar>
-      <Container>
-        <CardWrapper>
+      <Container className="adjustment">
+        <CardWrapper className="ad-clr">
           <Card {...{ name: "", logosrc: "/images/add.png" }} />
           {devices.length > 0 &&
             devices.map((device, index) => {

@@ -2,17 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 body {
   height: 100vh;
-  // background-color: #ccc;
-}
-
-.adjustment {
-  // margin: auto !important;
-  // max-width: 500px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -21,8 +15,8 @@ body {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 80px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     margin: auto !important;
     max-width: 500px;
-    h3{
-      margin-top: 40px;
-    }
+  }
+  .adjustment h3 {
+    margin-top: 40px;
   }
 }
