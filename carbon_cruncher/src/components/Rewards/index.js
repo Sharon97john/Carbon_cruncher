@@ -4,21 +4,21 @@ import Card from "../Cards";
 
 const Rewards = () => {
   const devices = [
-    { name: "15% Off", logosrc: "/images/train.png" },
-    { name: "10% Off", logosrc: "/images/plantshop.png" },
-    { name: "10% Off", logosrc: "/images/train.png" },
-    { name: "10% Off", logosrc: "/images/plantshop.png" },
-    { name: "10% Off", logosrc: "/images/bike.jpg" },
-    { name: "10% Off", logosrc: "/images/train.png" },
-    { name: "10% Off", logosrc: "/images/firstbus.png" },
-    { name: "15% Off", logosrc: "/images/train.png" },
-    { name: "15% Off", logosrc: "/images/plantshop.png" },
-    { name: "15% Off", logosrc: "/images/firstbus.png" },
-    { name: "15% Off", logosrc: "/images/plantshop.png" },
-    { name: "5% Off", logosrc: "/images/train.png" },
-    { name: "5% Off", logosrc: "/images/plantshop.png" },
-    { name: "5% Off", logosrc: "/images/firstbus.png" },
-    { name: "5% Off", logosrc: "/images/plantshop.png" },
+    { device_name: "15% Off", imgurl: "/images/train.png" },
+    { device_name: "10% Off", imgurl: "/images/plantshop.png" },
+    { device_name: "10% Off", imgurl: "/images/train.png" },
+    { device_name: "10% Off", imgurl: "/images/plantshop.png" },
+    { device_name: "10% Off", imgurl: "/images/bike.jpg" },
+    { device_name: "10% Off", imgurl: "/images/train.png" },
+    { device_name: "10% Off", imgurl: "/images/firstbus.png" },
+    { device_name: "15% Off", imgurl: "/images/train.png" },
+    { device_name: "15% Off", imgurl: "/images/plantshop.png" },
+    { device_name: "15% Off", imgurl: "/images/firstbus.png" },
+    { device_name: "15% Off", imgurl: "/images/plantshop.png" },
+    { device_name: "5% Off", imgurl: "/images/train.png" },
+    { device_name: "5% Off", imgurl: "/images/plantshop.png" },
+    { device_name: "5% Off", imgurl: "/images/firstbus.png" },
+    { device_name: "5% Off", imgurl: "/images/plantshop.png" },
   ];
   return (
     <CardWrapper className="ad-clr rewards adjustment">

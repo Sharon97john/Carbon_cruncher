@@ -13,8 +13,9 @@ import {
 import { Line } from "react-chartjs-2";
 import { Container } from "../../main";
 
-const MonthlyGraph = ({months, consumptions, trees}) => {
-  consumptions = consumptions ? consumptions : [1, 2, 100, 40, 90, 6, 25000];
+const MonthlyGraph = ({months, datapoints, consumption, trees}) => {
+  console.log(months,datapoints, consumption, trees)
+  const consumptions = datapoints ? datapoints : [1, 2, 100, 40, 90, 6, 25000];
   trees = trees ? trees : 250;
   const options = {
     responsive: true,
@@ -88,7 +89,7 @@ const MonthlyGraph = ({months, consumptions, trees}) => {
         Carbon Emission for {name}
         <Container>
           <CosumpCard>
-            <h5>{consumptions[consumptions.length -1]} <span>(CO<sub>2</sub>e)</span></h5>
+            <h5>{consumption} <span>(CO<sub>2</sub>e)</span></h5>
           </CosumpCard>
           <TreesCard>
             <img src="/images/tree.png" />
