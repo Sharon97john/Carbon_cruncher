@@ -13,12 +13,12 @@ const Dashboard = () => {
     },
     {
       name: "Google Mini",
-      logosrc: "/images/alexa.png",
+      logosrc: "/images/mini.png",
       status: 2,
     },,
     {
-      name: "Google Mini",
-      logosrc: "/images/alexa.png",
+      name: "Philis Hue",
+      logosrc: "/images/hue.png",
       status: 2,
     },
     {
